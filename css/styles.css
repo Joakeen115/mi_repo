@@ -1,0 +1,219 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+/* Todo esto es el header, nav (del index.html) */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #57886c;
+    align-items: center;
+    width: 100vw;
+    margin-top: 0;
+    padding: 10px;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: #57886c;
+}
+.nav{
+    display: flex;
+}
+.nav-img{
+    width: 75px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+}
+.nav-li{
+    padding: 5px;
+    color: black;
+}
+.nav-li a{
+    color: black;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.button-title-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3142;
+    width: 50%;
+    color: white;
+}
+/* Acá voy a ponerle los estilos a lo que va debajo del nav, el body (del index.html)*/
+.section-platos-populares{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Acá voy a estilizar el botón de "hacer una reserva" y el del "menú" (del index.html)*/
+
+.hacer-una-reserva-button{
+    background-color: #a64253;
+    color: #FDF0D5;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 50px;
+}
+.ver-menu-button{
+    background-color: #a64253;
+    color: #FDF0D5;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+/*Esto es el tamaño de las fotos (del index.html) */
+.platos-populares-img{
+    height: 250px;
+    width: 300px;
+}
+/* Esto es el div de la hamburguesa (del index.html) */
+.hamburguesa-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #2E382E;
+    background-color: #75704e;
+    margin: 10px;
+}
+/* Este es el div de la pizza (del index.html) */
+.pizza-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #2E382E;
+    background-color: #75704e;
+    padding: 10px;
+}
+/* Este es el div del Sorrentino (del index.html) */
+.sorrentino-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 3px #2E382E;
+    background-color: #75704e;
+    margin: 10px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* el footer (del index.html) */
+.footer{
+display: block;
+position: absolute;
+bottom: 0;
+justify-content: flex-start;
+background-color: #57886c;
+width: 100%;
+margin-top: 10px;
+}
+.footer-p{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+}
+/* Acá en adelante pongo los estilos de el html "Acerca de nosotros" */
+.contenedor-personal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.personal-img{
+    width: 500px;
+}
+.personal-p{
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Acá voy a poner los estilos del html "Donde estamos" */
+.donde-estamos-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donde-estamos-section img{
+    width: 750px;
+}
+.acerca-de-nosotros-p{
+    border: 3px solid black;
+    border-radius: 1%;
+    padding: 10px;
+    width: 650px
+}
+/* Acá voy a poner los estilos del HTML "Opiniones & Contacto */
+.foto-usuarios{
+    width: 75px;
+}
+.foto-usuarios-div{
+    display: flex;
+}
+.comparte-tu-experiencia-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d3142;
+    color: white;
+}
+.icon-section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.icon-section img{
+    width: 50px;
+    margin: 40px;
+}
+/* Acá voy a poner los estilos del HTML "Eventos & Promociones */
+
+.tematica-div{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.tematica-div p{
+    border: 3px solid black;
+    padding: 45px;
+}
+.tematica-img{
+    width: 250px;
+    height: 200px;
+}
+.banco-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banco-img{
+    width: 50px;
+}
