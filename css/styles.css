@@ -12,43 +12,33 @@ body{
 
 }
 /* Todo esto es el header, nav (del index.html) */
-.header{
-    display: flex;
-    justify-content: space-between;
+.nav-joaquin{
     background-color: #57886c;
-    align-items: center;
-    width: 100vw;
-    margin-top: 0;
-    padding: 10px;
-    height: 100px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    background-color: #57886c;
+.container-fluid-joaquin{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-brand-joaquin{
+    font-weight: 800;
 }
 .nav{
     display: flex;
 }
 .nav-img{
-    width: 75px;
+    width: 100px;
     padding: 20px;
     border-radius: 50%;
 }
-.nav-ul{
-    list-style: none;
-    display: flex;
+.nav-link-joaquin{
+    color: #2d3142;
 }
-.nav-li{
-    padding: 5px;
-    color: black;
+.navbar-hamburger{
+    width: 35.6px;
 }
-.nav-li a{
-    color: black;
-    text-decoration: none;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
+h4{
+    font-family: "montserrat", sans-serif;
+    margin-top: 40px;
 }
 .button-title-div{
     display: flex;
@@ -82,7 +72,7 @@ h2{
     height: 50px;
     width: 200px;
     border-radius: 20px;
-    margin: 50px;
+    margin: 40px 144px;
 }
 
 /*Esto es el tamaño de las fotos (del index.html) */
@@ -127,7 +117,6 @@ h4{
 /* el footer (del index.html) */
 .footer{
 display: block;
-position: absolute;
 bottom: 0;
 justify-content: flex-start;
 background-color: #57886c;
