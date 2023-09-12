@@ -3,46 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS Joaquin -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>La Buena Estancia</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#"><img class="nav-img" src="../images/logo.avif" alt="logo"></a>
-            <h2>La Buena Estancia</h2>
-        </div>
+    <!-- Esto es el NAV -->
 
-        <nav class="nav">
-            <ul class="nav-ul">
-                <li class="nav-li"><a href="../index.html">Inicio</a></li>
-                <li class="nav-li"><a href="../pages/donde-estamos.html"> Donde estamos</a></li>
-                <li class="nav-li"><a href="../pages/opiniones-&-contacto.html">Opiniones & Contacto</a></li>
-                <li class="nav-li"><a href="../pages/eventos-&-promociones.html">Eventos & Promociones</a></li>
-            </ul>
-        </nav>
+    <div class="container-fluid container-fluid-joaquin">
+        <nav class="navbar navbar-light navbar-expand-lg nav-joaquin">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-brand-joaquin" href="#"> <img class="nav-img" src="../images/logo.avif" alt="logo">La Buena Estancia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="navbar-hamburger" src="../icons/hamburguer-icon.png" alt="hamburguesa">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="pages/donde-estamos.html">Donde estamos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="pages/donde-estamos.html">Eventos & promociones</a>
+          </li><li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="pages/donde-estamos.html">Opiniones & contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+  </nav>
     </header>
-    <div class="button-title-div">
+    <!-- Acá está el botón de reserva -->
+    <div class="button-title-div text-center">
         <button class="hacer-una-reserva-button">
             Hacer una reserva
         </button>
     
         <h4>Acerca de nosotros:</h4>
     </div>
-<section class="contenedor-personal">
-    <img class="personal-img" src="../images/personal-parrilla.png" alt="Foto de encargados y personal de la parrilla">
-    <div class="personal-p">
-    <p>La parrilla, ese espacio donde el fuego y el sabor se fusionan en una danza culinaria, es el corazón latente de nuestra cocina. Detrás de la cortina de humo y la llama viva, se encuentra un equipo apasionado de parrilleros que dan vida a cada ingrediente con destreza y pasión. Imagina a nuestros parrilleros como los guardianes de la tradición, portadores de secretos ancestrales transmitidos de generación en generación. Cada uno de ellos es un artista en su oficio, con manos que dan forma a cortes de carne selectos y verduras frescas, y ojos que ven más allá del fuego, visualizando la perfección en cada cocinado.
+    <!-- Acá está la foto y la descripción -->
+<section class="contenedor-personal container">
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="personal-img pt-3" src="../images/personal-parrilla.png" alt="Foto de encargados y personal de la parrilla">
+        </div>
+<div class="d-none d-lg-block col-lg-4">
+    <img class="personal-img pt-3" src="../images/grupo-cocina.jpg.webp" alt="Foto de encargados y personal de la parrilla">
+</div>
+<div class="d-none d-lg-block col-lg-4">
+    <img class="personal-img pt-3" src="../images/Personal-2.jpg.webp" alt="Foto de encargados y personal de la parrilla">
+</div>
+
+<div class="row">
+    <div class="personal-p text-start col-lg-12">
+    <p class="text-center">La parrilla, ese espacio donde el fuego y el sabor se fusionan en una danza culinaria, es el corazón latente de nuestra cocina. Detrás de la cortina de humo y la llama viva, se encuentra un equipo apasionado de parrilleros que dan vida a cada ingrediente con destreza y pasión. Imagina a nuestros parrilleros como los guardianes de la tradición, portadores de secretos ancestrales transmitidos de generación en generación. Cada uno de ellos es un artista en su oficio, con manos que dan forma a cortes de carne selectos y verduras frescas, y ojos que ven más allá del fuego, visualizando la perfección en cada cocinado.
 <br>
         Con carisma y camaradería, nuestro equipo de parrilleros se reúne alrededor de las brasas, compartiendo risas y anécdotas mientras las llamas acarician los ingredientes con una reverencia culinaria. Se cuidan mutuamente, como una familia extendida unida por su pasión por la cocina a la parrilla. Cada uno aporta su toque especial, su técnica única, y su compromiso inquebrantable para asegurarse de que cada plato que llega a tu mesa sea una obra maestra de sabor y textura.
 <br>
         Nuestros parrilleros no solo dominan el arte de cocinar, sino que también entienden la magia detrás de cada mezcla de especias, la alquimia de las marinadas y la precisión de los tiempos de cocción. Su trabajo es una danza perfectamente sincronizada entre el control y la pasión, logrando el equilibrio ideal que transforma ingredientes crudos en experiencias gustativas inolvidables.
 <br>
         Cuando visitas nuestro restaurante y te sumerges en los aromas seductores que emanan de la parrilla, estás experimentando la dedicación y la devoción de nuestro equipo de parrilleros. Desde las brasas ardientes hasta el plato frente a ti, cada paso es un tributo a la excelencia culinaria y a la herencia gastronómica que llevamos con orgullo. Así que, cuando saborees cada bocado de nuestras creaciones a la parrilla, recuerda que detrás de ese sabor inolvidable hay un equipo unido por su pasión, su compromiso y su amor compartido por la cocina auténtica y apasionada."</p>
+    </div>
+</div>
 </div>
 </section>
 <footer class="footer">
     <p class="footer-p">Copyright 2023™</p>
 </footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

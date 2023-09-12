@@ -3,33 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS Joaquin -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>La Buena Estancia</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#"><img class="nav-img" src="../images/logo.avif" alt="logo"></a>
-            <h2>La Buena Estancia</h2>
-        </div>
+    <!-- Esto es el NAV -->
 
-        <nav class="nav">
-            <ul class="nav-ul">
-                <li class="nav-li"><a href="../index.html">Inicio</a></li>
-                <li class="nav-li"><a href="../pages/acerca-de-nosotros.html">Acerca de nosotros</a></li>
-                <li class="nav-li"><a href="../pages/opiniones-&-contacto.html">Opiniones & Contacto</a></li>
-                <li class="nav-li"><a href="../pages/eventos-&-promociones.html">Eventos & Promociones</a></li>
-            </ul>
-        </nav>
+    <div class="container-fluid container-fluid-joaquin">
+        <nav class="navbar navbar-light navbar-expand-lg nav-joaquin">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-brand-joaquin" href="#"> <img class="nav-img" src="../images/logo.avif" alt="logo">La Buena Estancia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="navbar-hamburger" src="../icons/hamburguer-icon.png" alt="hamburguesa">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="acerca-de-nosotros.html">Acerca de nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="pages/donde-estamos.html">Eventos & promociones</a>
+          </li><li class="nav-item">
+            <a class="nav-link nav-link-joaquin" href="pages/donde-estamos.html">Opiniones & contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+</nav>
     </header>
+
     <div>
         <button class="hacer-una-reserva-button">
             Hacer una reserva
         </button>
     </div>
-    <section class="donde-estamos-section">
-        <img src="../images/donde-ubicar-la-parrila.png" alt="donde ubicar la parrilla">
-        <div class="acerca-de-nosotros-p">
+    <section class="donde-estamos-section container">
+        <div class="row">
+            <div class="col-lg text-center">
+        <img class="w-100" src="../images/donde-ubicar-la-parrila.png" alt="donde ubicar la parrilla">
+    </div>
+    </div>
+        <div class="acerca-de-nosotros-p mt-3 text-center w-100">
         <p>En el corazón de nuestra cocina, la parrilla es el escenario donde los sabores cobran vida. Aquí es donde nuestros hábiles parrilleros trabajan su magia, convirtiendo ingredientes simples en creaciones culinarias llenas de sabor y pasión. Cada chispa que salta y cada aroma que se eleva desde las brasas cuentan la historia de autenticidad y dedicación que se encuentra en cada plato que servimos. Bienvenidos a nuestro rincón de inspiración y creatividad, donde la parrilla es más que una herramienta, es el alma de nuestra cocina.</p>
     </div>
     </section>
@@ -37,5 +62,7 @@
     <footer class="footer">
         <p class="footer-p">Copyright 2023™</p>
     </footer>
+    <!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
