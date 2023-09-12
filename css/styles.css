@@ -11,6 +11,13 @@ body{
     margin: 0;
 
 }
+/*Esto es lo de el botón hamburguesa*/
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
 /* Todo esto es el header, nav (del index.html) */
 .nav-joaquin{
     background-color: #57886c;
