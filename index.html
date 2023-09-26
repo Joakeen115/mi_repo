@@ -10,7 +10,12 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- CSS Joaquin -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Animate CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>La Buena Estancia</title>
 </head>
 
@@ -20,7 +25,7 @@
         <div class="container-fluid container-fluid-joaquin">
             <nav class="navbar navbar-light navbar-expand-lg nav-joaquin">
         <div class="container-fluid">
-          <a class="navbar-brand navbar-brand-joaquin" href="#"> <img class="nav-img" src="images/logo.avif" alt="logo">La Buena Estancia</a>
+          <a class="navbar-brand navbar-brand-joaquin animate__animated animate__pulse" href="#"> <img class="nav-img" src="images/logo.avif" alt="logo">La Buena Estancia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <img class="navbar-hamburger" src="icons/hamburguer-icon.png" alt="hamburguesa">
           </button>
@@ -40,48 +45,55 @@
             </ul>
           </div>
         </div>
-    </div>
+      </header>
       </nav>
 
 
+<!-- Acá van el botón de reserva -->
+    <div class="button-title-div container text-center">
+        <button class="hacer-una-reserva-button">Hacer una reserva</button>
 
-    <div class="button-title-div text-center">
-        <button class="hacer-una-reserva-button">
-            Hacer una reserva
-        </button>
-    
         <h4 class="text-center">Platos más populares:</h4>
     </div>
+    <!-- Acá van las fotos de las comidas-->
 <section class="container">
 
 <div class="row pt-3">
 
 <div class="col-lg-4 text-center">
-    <img class="platos-populares-img" src="images/hamborguesa.avif" alt="Foto de alta hamburguesa"> 
+    <img class="platos-populares-img w-75 h-50" src="images/hamborguesa.avif" alt="Foto de alta hamburguesa"> 
+
+    <h6 class="img-subtitle m-3 text-center p-2 fw-bolder">Hamburguesa completa</h6>
+
     <p class="text-center">Sumérgete en una experiencia inigualable de sabor con nuestra hamburguesa de doble medallón de carne. Jugosos y perfectamente cocidos, los medallones son la estrella de esta creación culinaria. Combinados con rodajas de cebolla crujiente, pepino fresco y lechuga crujiente, cada bocado es una explosión de texturas y sabores frescos.</p>
 </div>
 
 <div class="col-lg-4 text-center">
-    <img class="platos-populares-img" src="images/pizza-pepperoni.avif" alt="Foto de pizza de Pepperoni">
+    <img class="platos-populares-img w-75 h-50" src="images/pizza-pepperoni.avif" alt="Foto de pizza de Pepperoni">
 
+    <h6 class="img-subtitle m-3 text-center p-2 fw-bolder">Pizza Pepperoni</h6>
     <p class="text-center">Deléitate con nuestra irresistible pizza de Pepperoni, una combinación perfecta de sabores audaces y texturas satisfactorias. Sobre una base de masa crujiente, se extiende una generosa capa de salsa de tomate casera que es el lienzo perfecto para los sabores que están por venir. </p>
 </div>
 
 <div class="col-lg-4 text-center">
-    <img class="platos-populares-img" src="images/sorrentinos.avif" alt="Foto de sorrentinos de verdura">
+    <img class="platos-populares-img w-75 h-50" src="images/sorrentinos.avif" alt="Foto de sorrentinos de verdura">
 
+    <h6 class="img-subtitle m-3 text-center p-2 fw-bolder">Sorrentinos</h6>
     <p class="text-center">Descubre la armonía de sabores en cada bocado con nuestros sorrentinos rellenos de verdura. Estos delicados paquetes de pasta artesanal encierran un relleno fresco y vibrante de vegetales de temporada. Con cada mordisco, disfruta de la suavidad de las espinacas, la dulzura de las zanahorias y otros ingredientes cuidadosamente mezclados.</p>
 </div>
 </div>
 </section>
-<section>
-    <h4 class="container text-center">Descubre Nuestras Ofertas Gastronómicas:</h4>
-    <button class="ver-menu-button"> Ver menú</button>
+<!-- Acá va el botón de "Ver menú" -->
+<section class="container text-center ">
+    <h4 class="text-center">Descubre Nuestras Ofertas Gastronómicas:</h4>
+    <div class="container-fluid">
+    <button class="ver-menu-button text-center"> Ver menú</button>
+  </div>
 </section>
 
 
-
-<footer class="footer">
+<!-- Acá va el footer-->
+<footer class="footer footer-joaquin">
     <p class="footer-p">Copyright 2023™</p>
 </footer>
 <!-- Bootstrap -->

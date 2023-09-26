@@ -1,0 +1,42 @@
+
+.container-fluid-joaquin{
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .nav-joaquin{
+    background-color: $cool-green;
+
+.navbar-brand-joaquin{
+    font-weight: 800;
+.nav-img{
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.nav-link-joaquin{
+    color: $dark-blue;
+}
+.navbar-hamburger{
+    width: 35.6px;
+}
+}
+}
+}
+
+
+
+
+
+h4{
+    font-family: "montserrat", sans-serif;
+    margin-top: 40px;
+}
+.button-title-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-blue;
+    width: 50%;
+    color: $cool-white;
+}

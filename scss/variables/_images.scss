@@ -1,0 +1,19 @@
+// Acá van los estilos de las imágenes del index //
+
+.platos-populares-img{
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+//Acá van los estilos de las imágenes de "Acerca de Nosotros" //
+.personal-img{
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

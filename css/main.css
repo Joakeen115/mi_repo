@@ -1,0 +1,145 @@
+.platos-populares-img {
+  overflow: hidden;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.platos-populares-img:hover {
+  transform: scale(1.1);
+}
+
+.personal-img {
+  overflow: hidden;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.personal-img:hover {
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler .navbar-hamburger {
+  width: 35.6px;
+}
+
+.hacer-una-reserva-button {
+  background-color: #a64253;
+  color: #FDF0D5;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 50px;
+  margin-left: 50px;
+}
+
+.ver-menu-button {
+  background-color: #a64253;
+  color: #FDF0D5;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 40px 144px;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+* body {
+  background-color: #cccccc;
+}
+
+.container-fluid-joaquin {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid-joaquin .nav-joaquin {
+  background-color: #57886c;
+}
+.container-fluid-joaquin .nav-joaquin .navbar-brand-joaquin {
+  font-weight: 800;
+}
+.container-fluid-joaquin .nav-joaquin .navbar-brand-joaquin .nav-img {
+  width: 100px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.container-fluid-joaquin .nav-joaquin .navbar-brand-joaquin .nav-link-joaquin {
+  color: #2d3142;
+}
+.container-fluid-joaquin .nav-joaquin .navbar-brand-joaquin .navbar-hamburger {
+  width: 35.6px;
+}
+
+h4 {
+  font-family: "montserrat", sans-serif;
+  margin-top: 40px;
+}
+
+.button-title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3142;
+  width: 50%;
+  color: white;
+}
+
+.img-subtitle {
+  background-color: #2d3142;
+  color: white;
+}
+
+.tematica-div {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.tematica-div.tematica-div p {
+  border: 3px solid black;
+  padding: 30px;
+}
+
+.banco-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banco-section .banco-img {
+  width: 50px;
+}
+
+.foto-usuarios-div {
+  display: flex;
+}
+.foto-usuarios-div .foto-usuarios {
+  width: 75px;
+}
+
+.comparte-tu-experiencia-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d3142;
+  color: white;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.icon-section.icon-section img {
+  width: 50px;
+  margin: 40px;
+}
+
+.footer-joaquin {
+  background-color: #57886c;
+}
+
+/*# sourceMappingURL=main.css.map */
