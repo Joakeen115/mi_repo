@@ -13,7 +13,7 @@
   object-fit: cover;
 }
 .personal-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .navbar-toggler {
@@ -107,11 +107,11 @@ h4 {
 
 .banco-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 .banco-section .banco-img {
-  width: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 .foto-usuarios-div {

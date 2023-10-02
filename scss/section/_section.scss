@@ -20,13 +20,11 @@
 }
 .banco-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    .banco-img{
-    width: 50px;
+    justify-content: space-around;
+.banco-img{
+@include logos-bancos (80px, 80px)
 }
 }
-
 // Acá van los estilos del html "Opiniones & Contacto" //
 
 .foto-usuarios-div{

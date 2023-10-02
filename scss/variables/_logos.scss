@@ -1,0 +1,6 @@
+//Acá van los estilos de los logos de los bancos (en "Eventos & Promociones") //
+@mixin logos-bancos($ancho, $alto){
+width: $ancho;
+height: $alto;
+}
+
