@@ -1,0 +1,29 @@
+//Acá van las Media Queries //
+//Estas MQ son de las imágenes de los usuarios en "Opiniones & Contacto" //
+        @media (max-width: 576px){
+            .foto-usuarios-div{
+                margin-bottom: 10px;
+                width: 124.8px;
+                height: 108.8;
+    }
+}
+        @media (max-width: 768px){
+            .foto-usuarios-div{
+                width: 50%;
+                height: 50%;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+    }
+}
+        @media (min-width: 1200px){
+            .img-usuario{
+                width: 50%;
+            }
+        }
+        @media (max-width: 1200px){
+            .img-usuario{
+                width: 75%;
+            }
+        }
+

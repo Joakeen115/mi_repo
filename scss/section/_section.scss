@@ -1,52 +1,54 @@
 // Este es el subtítulo de la foto de las comidas (del index.html) //
-.img-subtitle{
-    background-color: $dark-blue;
-    color: $cool-white;
-
-    
+        .img-subtitle{
+            background-color: $dark-blue;
+            color: $cool-white;
 }
 // Esto son los estilos de las fotos y párrafos del html "Eventos & Promociones"
-.tematica-div{
-    display: flex;
-    margin: 15px;
-    justify-content: center;
-    align-items: center;
-
-    &.tematica-div p{
-    border: 3px solid black;
-    padding: 30px;
-
+        .tematica-div{
+            display: flex;
+            margin: 15px;
+            justify-content: center;
+            align-items: center;
+                &.tematica-div p{
+                    border: 3px solid black;
+                    padding: 30px;
 }
 }
-.banco-section{
-    display: flex;
-    justify-content: space-around;
-.banco-img{
-@include logos-bancos (80px, 80px)
+        .banco-section{
+            display: flex;
+            justify-content: space-around;
+                .banco-img{
+                    @include logos-bancos (80px, 80px)
 }
 }
 // Acá van los estilos del html "Opiniones & Contacto" //
-
-.foto-usuarios-div{
-    display: flex;
-    .foto-usuarios{
-    width: 75px;
-
+        .container-joaquin{
+            width: 75%;
+            height: 45%;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .foto-usuarios-div{
+            width: 30%;
+            object-fit: cover;
+            overflow: hidden;
+        }
+        .comparte-tu-experiencia-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $dark-blue;
+            color: $cool-white;
 }
-}
-.comparte-tu-experiencia-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: $dark-blue;
-    color: $cool-white;
-}
-.icon-section{
-    display: flex;
-    flex-direction: row-reverse;
-    &.icon-section img{
-    width: 50px;
-    margin: 40px;
+        .icon-section{
+            display: flex;
+            flex-direction: row-reverse;
+                &.icon-section img{
+                    width: 50px;
+                    margin: 40px;
 }
 }
 

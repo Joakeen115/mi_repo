@@ -50,6 +50,9 @@
 }
 * body {
   background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container-fluid-joaquin {
@@ -114,11 +117,19 @@ h4 {
   height: 80px;
 }
 
-.foto-usuarios-div {
+.container-joaquin {
+  width: 75%;
+  height: 45%;
+  margin: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.foto-usuarios-div .foto-usuarios {
-  width: 75px;
+
+.foto-usuarios-div {
+  width: 30%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .comparte-tu-experiencia-section {
@@ -140,6 +151,33 @@ h4 {
 
 .footer-joaquin {
   background-color: #57886c;
+}
+
+@media (max-width: 576px) {
+  .foto-usuarios-div {
+    margin-bottom: 10px;
+    width: 124.8px;
+    height: 108.8;
+  }
+}
+@media (max-width: 768px) {
+  .foto-usuarios-div {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .img-usuario {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .img-usuario {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

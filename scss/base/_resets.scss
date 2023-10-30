@@ -1,6 +1,9 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-    body{
-    background-color: $cool-gray;
+        *{
+            font-family: 'Open Sans', sans-serif;
+                body{
+                    background-color: $cool-gray;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
 }
 }
